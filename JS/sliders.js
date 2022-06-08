@@ -20,8 +20,5 @@
         
         sliders[currentElement-1].classList.toggle('slider__body--show');
         sliders[value-1].classList.toggle('slider__body--show');
-
     }
-
-
 })()
