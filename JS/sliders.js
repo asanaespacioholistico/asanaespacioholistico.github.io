@@ -1,4 +1,4 @@
-function(){
+(function(){
     const sliders = [...document.querySelectorAll('.slider__body')];
     const arrowNext = document.querySelector('#next');
     const arrowBefore = document.querySelector('#before');
@@ -21,4 +21,4 @@ function(){
         sliders[currentElement-1].classList.toggle('slider__body--show');
         sliders[value-1].classList.toggle('slider__body--show');
     }
-}()
+})()
