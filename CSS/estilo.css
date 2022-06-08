@@ -7,7 +7,6 @@
     scroll-behavior: smooth;
 }
 body{
-    /*font-family: 'Aladin', cursive;*/
     font-family: 'Open Sans', sans-serif;
 }
 .contenedor{
@@ -178,7 +177,6 @@ header{
     opacity: 0;
     pointer-events: none;
     display: grid;
-    /*background-color: rgb(224, 119, 119);*/
     grid-template-columns: 1fr max-content;
     align-items: center;
     transition: opacity 1.5s;
@@ -304,7 +302,6 @@ footer{
     }
     .footer-content{
         justify-content: center;
-        /*text-align: center;*/
     }
     .contact-media{
         width: 80%;
